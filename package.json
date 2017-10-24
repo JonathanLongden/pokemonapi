@@ -30,6 +30,9 @@
     "type": "",
     "url": ""
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "license": "UNLICENSED",
   "description": "qualitybasic"
 }
