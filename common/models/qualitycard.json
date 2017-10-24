@@ -1,0 +1,23 @@
+{
+  "name": "qualitycard",
+  "base": "PersistedModel",
+  "mongodb": {
+    "collection": "quality"
+  },
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "riskDate": {
+      "type": "date"
+    },
+    "riskOberser": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,26 @@
+{
+  "name": "card",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "mongodb": {
+    "collection": "quality"
+  },
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "oberstation": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

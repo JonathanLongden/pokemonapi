@@ -1,0 +1,7 @@
+{
+  "db": {
+    "url": "mongodb://admin:admin@ds129315.mlab.com:29315/quality",
+    "name": "db",
+    "connector": "mongodb"
+  }
+}
